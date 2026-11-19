@@ -1,0 +1,785 @@
+{
+  "n_campaigns": 164712,
+  "date_range": [
+    "2024-07-01",
+    "2025-06-24"
+  ],
+  "raw_missing_pct": {
+    "Nykaa": {
+      "Campaign_ID": 0.0,
+      "Campaign_Type": 5.15,
+      "Target_Audience": 4.97,
+      "Duration": 5.2,
+      "Channel_Used": 5.05,
+      "Impressions": 5.0,
+      "Clicks": 5.01,
+      "Leads": 5.0,
+      "Conversions": 4.8,
+      "Revenue": 5.06,
+      "Acquisition_Cost": 5.06,
+      "ROI": 5.09,
+      "Language": 4.98,
+      "Engagement_Score": 4.95,
+      "Customer_Segment": 5.02,
+      "Date": 4.96
+    },
+    "Purplle": {
+      "Campaign_ID": 4.83,
+      "Campaign_Type": 5.02,
+      "Target_Audience": 4.94,
+      "Duration": 4.98,
+      "Channel_Used": 4.94,
+      "Impressions": 4.9,
+      "Clicks": 4.88,
+      "Leads": 4.78,
+      "Conversions": 4.81,
+      "Revenue": 4.97,
+      "Acquisition_Cost": 4.86,
+      "ROI": 4.92,
+      "Language": 4.94,
+      "Engagement_Score": 4.68,
+      "Customer_Segment": 4.82,
+      "Date": 4.77
+    },
+    "Tira": {
+      "Campaign_ID": 4.92,
+      "Campaign_Type": 4.88,
+      "Target_Audience": 4.8,
+      "Duration": 4.8,
+      "Channel_Used": 4.92,
+      "Impressions": 4.9,
+      "Clicks": 4.91,
+      "Leads": 4.78,
+      "Conversions": 4.79,
+      "Revenue": 4.91,
+      "Acquisition_Cost": 4.77,
+      "ROI": 4.94,
+      "Language": 5.01,
+      "Engagement_Score": 4.91,
+      "Customer_Segment": 4.88,
+      "Date": 4.84
+    }
+  },
+  "raw_rows_with_any_missing_pct": 54.7,
+  "brand": {
+    "Nykaa": {
+      "campaigns": 54878,
+      "revenue": 28325747440,
+      "spend": 9579611694.47,
+      "avg_roi": 2.7167,
+      "median_roi": 1.242,
+      "profit_rate": 0.7608,
+      "avg_ctr": 0.0851,
+      "avg_engagement": 13.7788,
+      "portfolio_roi": 1.9569
+    },
+    "Purplle": {
+      "campaigns": 54908,
+      "revenue": 28187201209,
+      "spend": 9607414656.63,
+      "avg_roi": 2.6786,
+      "median_roi": 1.222,
+      "profit_rate": 0.7589,
+      "avg_ctr": 0.0851,
+      "avg_engagement": 13.7544,
+      "portfolio_roi": 1.9339
+    },
+    "Tira": {
+      "campaigns": 54926,
+      "revenue": 28132185150,
+      "spend": 9601764115.33,
+      "avg_roi": 2.6778,
+      "median_roi": 1.2366,
+      "profit_rate": 0.7643,
+      "avg_ctr": 0.0851,
+      "avg_engagement": 13.7598,
+      "portfolio_roi": 1.9299
+    }
+  },
+  "overall": {
+    "revenue": 84645133799.0,
+    "spend": 28788790466.43,
+    "portfolio_roi": 1.9402115346840605,
+    "profit_rate": 0.7613349361309437,
+    "median_roi": 1.23345,
+    "mean_roi": 2.691028863106513
+  },
+  "campaign_type": {
+    "Email": {
+      "campaigns": 31430,
+      "median_roi": 1.2205,
+      "profit_rate": 0.7582,
+      "avg_revenue": 513604.1976,
+      "avg_conversions": 1028.0025
+    },
+    "Influencer": {
+      "campaigns": 31468,
+      "median_roi": 1.2086,
+      "profit_rate": 0.759,
+      "avg_revenue": 509936.0382,
+      "avg_conversions": 1025.0504
+    },
+    "Paid Ads": {
+      "campaigns": 31258,
+      "median_roi": 1.265,
+      "profit_rate": 0.7647,
+      "avg_revenue": 518905.1302,
+      "avg_conversions": 1033.8306
+    },
+    "SEO": {
+      "campaigns": 31175,
+      "median_roi": 1.2229,
+      "profit_rate": 0.7586,
+      "avg_revenue": 510615.2931,
+      "avg_conversions": 1021.7065
+    },
+    "Social Media": {
+      "campaigns": 31124,
+      "median_roi": 1.2423,
+      "profit_rate": 0.7675,
+      "avg_revenue": 515893.7998,
+      "avg_conversions": 1035.3383
+    }
+  },
+  "top10_roi": [
+    {
+      "Campaign_ID": "TI-CMP-46406",
+      "Brand": "Tira",
+      "Campaign_Type": "Social Media",
+      "Channel_Used": "Google, Instagram",
+      "Revenue": 4041864,
+      "Total_Spend": 50323.36,
+      "ROI": 79.32
+    },
+    {
+      "Campaign_ID": "NY-CMP-13007",
+      "Brand": "Nykaa",
+      "Campaign_Type": "Paid Ads",
+      "Channel_Used": "Email, Facebook, YouTube",
+      "Revenue": 4579910,
+      "Total_Spend": 60708.88,
+      "ROI": 74.44
+    },
+    {
+      "Campaign_ID": "TI-CMP-18349",
+      "Brand": "Tira",
+      "Campaign_Type": "Paid Ads",
+      "Channel_Used": "Facebook, Google",
+      "Revenue": 4045290,
+      "Total_Spend": 55294.56,
+      "ROI": 72.16
+    },
+    {
+      "Campaign_ID": "PU-CMP-41973",
+      "Brand": "Purplle",
+      "Campaign_Type": "Paid Ads",
+      "Channel_Used": "Instagram",
+      "Revenue": 3467292,
+      "Total_Spend": 51088.86,
+      "ROI": 66.87
+    },
+    {
+      "Campaign_ID": "NY-CMP-22689",
+      "Brand": "Nykaa",
+      "Campaign_Type": "Influencer",
+      "Channel_Used": "Instagram, YouTube",
+      "Revenue": 3821485,
+      "Total_Spend": 56764.2,
+      "ROI": 66.32
+    },
+    {
+      "Campaign_ID": "NY-CMP-49715",
+      "Brand": "Nykaa",
+      "Campaign_Type": "Paid Ads",
+      "Channel_Used": "WhatsApp",
+      "Revenue": 3717208,
+      "Total_Spend": 56341.12,
+      "ROI": 64.98
+    },
+    {
+      "Campaign_ID": "TI-CMP-9758",
+      "Brand": "Tira",
+      "Campaign_Type": "Email",
+      "Channel_Used": "Instagram, WhatsApp",
+      "Revenue": 3392874,
+      "Total_Spend": 51551.7,
+      "ROI": 64.82
+    },
+    {
+      "Campaign_ID": "NY-CMP-26356",
+      "Brand": "Nykaa",
+      "Campaign_Type": "Paid Ads",
+      "Channel_Used": "Facebook",
+      "Revenue": 3363384,
+      "Total_Spend": 51641.76,
+      "ROI": 64.13
+    },
+    {
+      "Campaign_ID": "PU-CMP-30181",
+      "Brand": "Purplle",
+      "Campaign_Type": "SEO",
+      "Channel_Used": "WhatsApp",
+      "Revenue": 3278224,
+      "Total_Spend": 50460.88,
+      "ROI": 63.97
+    },
+    {
+      "Campaign_ID": "PU-CMP-8989",
+      "Brand": "Purplle",
+      "Campaign_Type": "SEO",
+      "Channel_Used": "Email, YouTube",
+      "Revenue": 3668850,
+      "Total_Spend": 58683.0,
+      "ROI": 61.52
+    }
+  ],
+  "bottom10_roi": [
+    {
+      "Campaign_ID": "TI-CMP-29039",
+      "Brand": "Tira",
+      "Campaign_Type": "Email",
+      "Channel_Used": "Email",
+      "Revenue": 3895,
+      "Total_Spend": 285722.0,
+      "ROI": -0.99
+    },
+    {
+      "Campaign_ID": "TI-CMP-20738",
+      "Brand": "Tira",
+      "Campaign_Type": "Influencer",
+      "Channel_Used": "Email, Instagram, WhatsApp",
+      "Revenue": 6072,
+      "Total_Spend": 279918.1,
+      "ROI": -0.98
+    },
+    {
+      "Campaign_ID": "PU-CMP-24764",
+      "Brand": "Purplle",
+      "Campaign_Type": "Influencer",
+      "Channel_Used": "Unknown",
+      "Revenue": 7350,
+      "Total_Spend": 274769.95,
+      "ROI": -0.97
+    },
+    {
+      "Campaign_ID": "TI-CMP-56201",
+      "Brand": "Tira",
+      "Campaign_Type": "Email",
+      "Channel_Used": "Unknown",
+      "Revenue": 6987,
+      "Total_Spend": 251640.97,
+      "ROI": -0.97
+    },
+    {
+      "Campaign_ID": "TI-CMP-1359",
+      "Brand": "Tira",
+      "Campaign_Type": "Influencer",
+      "Channel_Used": "Facebook, Instagram, WhatsApp",
+      "Revenue": 9180,
+      "Total_Spend": 299162.88,
+      "ROI": -0.97
+    },
+    {
+      "Campaign_ID": "PU-CMP-32028",
+      "Brand": "Purplle",
+      "Campaign_Type": "Email",
+      "Channel_Used": "Email",
+      "Revenue": 9072,
+      "Total_Spend": 271795.86,
+      "ROI": -0.97
+    },
+    {
+      "Campaign_ID": "NY-CMP-24406",
+      "Brand": "Nykaa",
+      "Campaign_Type": "Paid Ads",
+      "Channel_Used": "Facebook, YouTube",
+      "Revenue": 6183,
+      "Total_Spend": 183750.12,
+      "ROI": -0.97
+    },
+    {
+      "Campaign_ID": "TI-CMP-16012",
+      "Brand": "Tira",
+      "Campaign_Type": "Paid Ads",
+      "Channel_Used": "Google",
+      "Revenue": 9625,
+      "Total_Spend": 286408.15,
+      "ROI": -0.97
+    },
+    {
+      "Campaign_ID": "TI-CMP-8939",
+      "Brand": "Tira",
+      "Campaign_Type": "Social Media",
+      "Channel_Used": "Email, Instagram, WhatsApp",
+      "Revenue": 8695,
+      "Total_Spend": 248557.86,
+      "ROI": -0.96
+    },
+    {
+      "Campaign_ID": "PU-CMP-48283",
+      "Brand": "Purplle",
+      "Campaign_Type": "Social Media",
+      "Channel_Used": "Facebook, WhatsApp",
+      "Revenue": 10422,
+      "Total_Spend": 295935.93,
+      "ROI": -0.96
+    }
+  ],
+  "top10_revenue": [
+    {
+      "Campaign_ID": "NY-CMP-13007",
+      "Brand": "Nykaa",
+      "Campaign_Type": "Paid Ads",
+      "Channel_Used": "Email, Facebook, YouTube",
+      "Revenue": 4579910,
+      "Total_Spend": 60708.88,
+      "ROI": 74.44
+    },
+    {
+      "Campaign_ID": "TI-CMP-42309",
+      "Brand": "Tira",
+      "Campaign_Type": "Paid Ads",
+      "Channel_Used": "YouTube",
+      "Revenue": 4517478,
+      "Total_Spend": 254122.29,
+      "ROI": 16.78
+    },
+    {
+      "Campaign_ID": "NY-CMP-44157",
+      "Brand": "Nykaa",
+      "Campaign_Type": "SEO",
+      "Channel_Used": "YouTube",
+      "Revenue": 4412709,
+      "Total_Spend": 101374.56,
+      "ROI": 42.53
+    },
+    {
+      "Campaign_ID": "PU-CMP-22268",
+      "Brand": "Purplle",
+      "Campaign_Type": "Paid Ads",
+      "Channel_Used": "WhatsApp, YouTube",
+      "Revenue": 4345920,
+      "Total_Spend": 201904.2,
+      "ROI": 20.52
+    },
+    {
+      "Campaign_ID": "NY-CMP-38379",
+      "Brand": "Nykaa",
+      "Campaign_Type": "Influencer",
+      "Channel_Used": "Instagram",
+      "Revenue": 4326120,
+      "Total_Spend": 299991.6,
+      "ROI": 13.42
+    },
+    {
+      "Campaign_ID": "TI-CMP-33733",
+      "Brand": "Tira",
+      "Campaign_Type": "SEO",
+      "Channel_Used": "Facebook, WhatsApp",
+      "Revenue": 4277700,
+      "Total_Spend": 273714.6,
+      "ROI": 14.63
+    },
+    {
+      "Campaign_ID": "NY-CMP-6741",
+      "Brand": "Nykaa",
+      "Campaign_Type": "Paid Ads",
+      "Channel_Used": "WhatsApp",
+      "Revenue": 4263879,
+      "Total_Spend": 127584.66,
+      "ROI": 32.42
+    },
+    {
+      "Campaign_ID": "TI-CMP-52788",
+      "Brand": "Tira",
+      "Campaign_Type": "Influencer",
+      "Channel_Used": "Email, Facebook",
+      "Revenue": 4231273,
+      "Total_Spend": 98641.22,
+      "ROI": 41.9
+    },
+    {
+      "Campaign_ID": "TI-CMP-27796",
+      "Brand": "Tira",
+      "Campaign_Type": "Email",
+      "Channel_Used": "Google, YouTube",
+      "Revenue": 4207876,
+      "Total_Spend": 207384.04,
+      "ROI": 19.29
+    },
+    {
+      "Campaign_ID": "PU-CMP-36294",
+      "Brand": "Purplle",
+      "Campaign_Type": "Influencer",
+      "Channel_Used": "Instagram",
+      "Revenue": 4195620,
+      "Total_Spend": 109462.65,
+      "ROI": 37.33
+    }
+  ],
+  "top_vs_bottom_decile_medians": {
+    "Top 10% ROI": {
+      "Acquisition_Cost": 47.345,
+      "CTR": 0.1172,
+      "Conversion_Rate": 0.6274,
+      "Engagement_Score": 20.09,
+      "Conversions": 2185.0,
+      "Num_Channels": 2.0
+    },
+    "Bottom 10% ROI": {
+      "Acquisition_Cost": 1207.52,
+      "CTR": 0.0439,
+      "Conversion_Rate": 0.4701,
+      "Engagement_Score": 6.47,
+      "Conversions": 173.0,
+      "Num_Channels": 2.0
+    }
+  },
+  "corr_with_revenue": {
+    "Conversions": 0.879,
+    "Leads": 0.81,
+    "ROI": 0.782,
+    "Clicks": 0.721,
+    "Engagement_Score": 0.56,
+    "Impressions": 0.508,
+    "CTR": 0.467,
+    "Lead_Rate": 0.308,
+    "Conversion_Rate": 0.273,
+    "Num_Channels": 0.001,
+    "Total_Spend": 0.001,
+    "Duration": 0.0,
+    "Acquisition_Cost": -0.406
+  },
+  "corr_with_roi": {
+    "Revenue": 0.782,
+    "Conversions": 0.686,
+    "Leads": 0.633,
+    "Clicks": 0.561,
+    "Engagement_Score": 0.438,
+    "Impressions": 0.396,
+    "CTR": 0.364,
+    "Lead_Rate": 0.244,
+    "Conversion_Rate": 0.211,
+    "Num_Channels": 0.003,
+    "Duration": -0.002,
+    "Acquisition_Cost": -0.37,
+    "Total_Spend": -0.406
+  },
+  "spearman_with_roi": {
+    "Revenue": 0.888,
+    "Conversions": 0.812,
+    "Leads": 0.772,
+    "Clicks": 0.717,
+    "Engagement_Score": 0.537,
+    "Impressions": 0.524,
+    "CTR": 0.468,
+    "Lead_Rate": 0.28,
+    "Conversion_Rate": 0.242,
+    "Num_Channels": 0.003,
+    "Duration": -0.004,
+    "Total_Spend": -0.427,
+    "Acquisition_Cost": -0.929
+  },
+  "avg_order_value": {
+    "min": 120.08450704225352,
+    "median": 499.0,
+    "max": 1265.3319536423842
+  },
+  "profit_by_cost_band": {
+    "<100": {
+      "campaigns": 37771,
+      "profit_rate": 1.0,
+      "median_roi": 6.7902
+    },
+    "100-200": {
+      "campaigns": 41999,
+      "profit_rate": 1.0,
+      "median_roi": 2.4146
+    },
+    "200-300": {
+      "campaigns": 25007,
+      "profit_rate": 0.9211,
+      "median_roi": 1.0316
+    },
+    "300-400": {
+      "campaigns": 15419,
+      "profit_rate": 0.7608,
+      "median_roi": 0.45
+    },
+    "400-500": {
+      "campaigns": 10325,
+      "profit_rate": 0.5941,
+      "median_roi": 0.1269
+    },
+    "500-600": {
+      "campaigns": 7263,
+      "profit_rate": 0.4114,
+      "median_roi": -0.0939
+    },
+    "600-700": {
+      "campaigns": 5411,
+      "profit_rate": 0.2558,
+      "median_roi": -0.22
+    },
+    "700-800": {
+      "campaigns": 3952,
+      "profit_rate": 0.0908,
+      "median_roi": -0.339
+    },
+    "800-1k": {
+      "campaigns": 5317,
+      "profit_rate": 0.0002,
+      "median_roi": -0.4472
+    },
+    "1k-2k": {
+      "campaigns": 9123,
+      "profit_rate": 0.0,
+      "median_roi": -0.6329
+    },
+    ">2k": {
+      "campaigns": 3125,
+      "profit_rate": 0.0,
+      "median_roi": -0.8303
+    }
+  },
+  "channel": {
+    "Email": {
+      "campaigns": 52265,
+      "median_roi": 1.2468,
+      "mean_roi": 2.7312,
+      "profit_rate": 0.763,
+      "avg_revenue": 516975.9693,
+      "avg_ctr": 0.0855
+    },
+    "Facebook": {
+      "campaigns": 52223,
+      "median_roi": 1.2284,
+      "mean_roi": 2.6826,
+      "profit_rate": 0.7618,
+      "avg_revenue": 513711.648,
+      "avg_ctr": 0.085
+    },
+    "Google": {
+      "campaigns": 52214,
+      "median_roi": 1.2251,
+      "mean_roi": 2.6886,
+      "profit_rate": 0.7594,
+      "avg_revenue": 512103.9639,
+      "avg_ctr": 0.0848
+    },
+    "Instagram": {
+      "campaigns": 52228,
+      "median_roi": 1.2557,
+      "mean_roi": 2.7248,
+      "profit_rate": 0.764,
+      "avg_revenue": 517270.497,
+      "avg_ctr": 0.0854
+    },
+    "WhatsApp": {
+      "campaigns": 52105,
+      "median_roi": 1.2332,
+      "mean_roi": 2.6817,
+      "profit_rate": 0.7632,
+      "avg_revenue": 513485.9692,
+      "avg_ctr": 0.0853
+    },
+    "YouTube": {
+      "campaigns": 52153,
+      "median_roi": 1.22,
+      "mean_roi": 2.6693,
+      "profit_rate": 0.7602,
+      "avg_revenue": 511810.4467,
+      "avg_ctr": 0.085
+    }
+  },
+  "num_channels": {
+    "1": {
+      "campaigns": 52119,
+      "median_roi": 1.2285,
+      "profit_rate": 0.7615,
+      "avg_revenue": 514038.554
+    },
+    "2": {
+      "campaigns": 52158,
+      "median_roi": 1.2362,
+      "profit_rate": 0.7616,
+      "avg_revenue": 514542.2775
+    },
+    "3": {
+      "campaigns": 52251,
+      "median_roi": 1.238,
+      "profit_rate": 0.7623,
+      "avg_revenue": 514081.2702
+    }
+  },
+  "best_channel_combos": {
+    "Facebook, Google, Instagram": {
+      "campaigns": 2650,
+      "median_roi": 1.337,
+      "profit_rate": 0.7698
+    },
+    "Instagram, WhatsApp": {
+      "campaigns": 3469,
+      "median_roi": 1.3336,
+      "profit_rate": 0.7766
+    },
+    "Email, Google, Instagram": {
+      "campaigns": 2634,
+      "median_roi": 1.3313,
+      "profit_rate": 0.7665
+    },
+    "Email, Google, YouTube": {
+      "campaigns": 2546,
+      "median_roi": 1.3177,
+      "profit_rate": 0.7797
+    },
+    "Facebook, WhatsApp": {
+      "campaigns": 3355,
+      "median_roi": 1.31,
+      "profit_rate": 0.7797
+    }
+  },
+  "worst_channel_combos": {
+    "Facebook, Instagram, WhatsApp": {
+      "campaigns": 2658,
+      "median_roi": 1.1908,
+      "profit_rate": 0.7611
+    },
+    "YouTube": {
+      "campaigns": 8589,
+      "median_roi": 1.1869,
+      "profit_rate": 0.7538
+    },
+    "Email, WhatsApp, YouTube": {
+      "campaigns": 2594,
+      "median_roi": 1.1837,
+      "profit_rate": 0.7621
+    },
+    "WhatsApp, YouTube": {
+      "campaigns": 3484,
+      "median_roi": 1.1792,
+      "profit_rate": 0.7543
+    },
+    "Google, WhatsApp": {
+      "campaigns": 3521,
+      "median_roi": 1.1554,
+      "profit_rate": 0.754
+    }
+  },
+  "segments": {
+    "Target_Audience": {
+      "Youth": {
+        "median_roi": 1.2252,
+        "profit_rate": 0.7635,
+        "campaigns": 31341
+      },
+      "Tier 2 City Customers": {
+        "median_roi": 1.226,
+        "profit_rate": 0.759,
+        "campaigns": 31202
+      },
+      "College Students": {
+        "median_roi": 1.227,
+        "profit_rate": 0.76,
+        "campaigns": 31107
+      },
+      "Working Women": {
+        "median_roi": 1.2343,
+        "profit_rate": 0.7596,
+        "campaigns": 31398
+      },
+      "Premium Shoppers": {
+        "median_roi": 1.2497,
+        "profit_rate": 0.7617,
+        "campaigns": 31583
+      }
+    },
+    "Customer_Segment": {
+      "Premium Shoppers": {
+        "median_roi": 1.2245,
+        "profit_rate": 0.76,
+        "campaigns": 31085
+      },
+      "Working Women": {
+        "median_roi": 1.23,
+        "profit_rate": 0.7628,
+        "campaigns": 31356
+      },
+      "College Students": {
+        "median_roi": 1.2324,
+        "profit_rate": 0.7616,
+        "campaigns": 31509
+      },
+      "Youth": {
+        "median_roi": 1.235,
+        "profit_rate": 0.7592,
+        "campaigns": 31542
+      },
+      "Tier 2 City Customers": {
+        "median_roi": 1.2379,
+        "profit_rate": 0.7605,
+        "campaigns": 31132
+      }
+    },
+    "Language": {
+      "English": {
+        "median_roi": 1.2204,
+        "profit_rate": 0.7617,
+        "campaigns": 39021
+      },
+      "Bengali": {
+        "median_roi": 1.2374,
+        "profit_rate": 0.7608,
+        "campaigns": 39079
+      },
+      "Tamil": {
+        "median_roi": 1.2391,
+        "profit_rate": 0.762,
+        "campaigns": 39133
+      },
+      "Hindi": {
+        "median_roi": 1.2552,
+        "profit_rate": 0.763,
+        "campaigns": 39274
+      }
+    }
+  },
+  "monthly_revenue_cv_pct": 19.5,
+  "profit_flag_counts": {
+    "Profit": 125401,
+    "Loss": 39311
+  },
+  "roi_quantiles": {
+    "0.01": -0.848,
+    "0.1": -0.488,
+    "0.25": 0.043,
+    "0.5": 1.233,
+    "0.75": 3.579,
+    "0.9": 7.429,
+    "0.99": 21.122
+  },
+  "revenue_quantiles": {
+    "0.01": 29256.0,
+    "0.25": 177655.0,
+    "0.5": 359228.0,
+    "0.75": 685064.0,
+    "0.99": 2329841.0
+  },
+  "funnel_medians": {
+    "CTR": 0.08519131172907711,
+    "Lead_Rate": 0.39889340504924964,
+    "Conversion_Rate": 0.5501022494887525
+  },
+  "figures": [
+    "reports/figures/00_target_distributions.png",
+    "reports/figures/01_missing_values.png",
+    "reports/figures/02_brand_performance.png",
+    "reports/figures/03_campaign_type_brand.png",
+    "reports/figures/04_correlation.png",
+    "reports/figures/05_spend_clicks_revenue_roi.png",
+    "reports/figures/06_profit_by_acquisition_cost.png",
+    "reports/figures/07_channel_effectiveness.png",
+    "reports/figures/08_audience_segment_language.png",
+    "reports/figures/09_monthly_trend.png"
+  ]
+}

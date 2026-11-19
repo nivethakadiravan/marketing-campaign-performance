@@ -1,0 +1,74 @@
+{
+  "rows_raw": 166665,
+  "rows_per_brand": {
+    "Nykaa": 55555,
+    "Purplle": 55555,
+    "Tira": 55555
+  },
+  "missing_before": {
+    "Duration": 8323,
+    "Impressions": 8224,
+    "Clicks": 8224,
+    "Leads": 8090,
+    "Conversions": 8000,
+    "Revenue": 8304,
+    "Acquisition_Cost": 8161,
+    "ROI": 8298,
+    "Engagement_Score": 8081,
+    "Campaign_Type": 8358,
+    "Target_Audience": 8172,
+    "Channel_Used": 8282,
+    "Language": 8299,
+    "Customer_Segment": 8175,
+    "Campaign_ID": 5417,
+    "Date": 8099
+  },
+  "campaign_id_pattern_match_pct": 100.0,
+  "campaign_id_rebuilt": 5417,
+  "duplicate_rows": 0,
+  "duplicate_campaign_ids": 0,
+  "negative_values_set_to_nan": 0,
+  "funnel_violations": {
+    "clicks_gt_impressions": 0,
+    "leads_gt_clicks": 0,
+    "conversions_gt_leads": 0
+  },
+  "roi_rows_checked": 136312,
+  "roi_max_abs_diff": 0.0279,
+  "roi_corrected": 0,
+  "recovered_by_roi_identity": {
+    "ROI": 7064,
+    "Revenue": 7137,
+    "Acquisition_Cost": 6991,
+    "Conversions": 6846
+  },
+  "rows_dropped_target_unrecoverable": 1953,
+  "engagement_ctr_fit": {
+    "slope": 159.998,
+    "intercept": 0.145
+  },
+  "imputation": {
+    "conversions_and_cost_from_spend": 362,
+    "funnel_ratio": {
+      "Impressions": 8123,
+      "Clicks": 8124,
+      "Leads": 7999
+    },
+    "engagement_from_ctr": 7978,
+    "brand_median": {
+      "Duration": 8236
+    },
+    "unknown_category": {
+      "Campaign_Type": 8257,
+      "Target_Audience": 8081,
+      "Channel_Used": 8184,
+      "Language": 8205,
+      "Customer_Segment": 8088
+    },
+    "date_missing_left_as_NaT": 7989
+  },
+  "rows_final": 164712,
+  "missing_after": {
+    "Date": 7989
+  }
+}

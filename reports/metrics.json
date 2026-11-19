@@ -1,0 +1,205 @@
+{
+  "regression_spec": {
+    "task": "regression",
+    "variant": "spec",
+    "best_model": "Linear Regression",
+    "best_params": {},
+    "test_metrics": {
+      "R2": 0.9999999998322473,
+      "RMSE": 6.246739154719527,
+      "MAE": 4.68011011201185,
+      "MSE": 39.021750067106034,
+      "MAPE_pct": 0.0020517599137669586
+    },
+    "fit_seconds": 0.6,
+    "n_features": 26,
+    "numeric_features": [
+      "Duration",
+      "Impressions",
+      "Clicks",
+      "Leads",
+      "Conversions",
+      "Acquisition_Cost",
+      "Engagement_Score",
+      "Total_Spend",
+      "CTR",
+      "Lead_Rate",
+      "Conversion_Rate",
+      "Month",
+      "Weekday",
+      "ROI"
+    ],
+    "top_features": {
+      "ROI": 4.5248,
+      "Total_Spend": 1.8397,
+      "Acquisition_Cost": 0.0,
+      "Conversions": 0.0,
+      "Leads": 0.0,
+      "Clicks": 0.0,
+      "Lead_Rate": 0.0,
+      "Engagement_Score": 0.0,
+      "Impressions": 0.0,
+      "Conversion_Rate": 0.0
+    }
+  },
+  "regression_forecast": {
+    "task": "regression",
+    "variant": "forecast",
+    "best_model": "Linear Regression",
+    "best_params": {},
+    "test_metrics": {
+      "R2": 0.7620553448670576,
+      "RMSE": 235264.6101663412,
+      "MAE": 156438.71358777804,
+      "MSE": 55349436796.720505,
+      "MAPE_pct": 35.33998589523675
+    },
+    "fit_seconds": 0.5,
+    "n_features": 25,
+    "numeric_features": [
+      "Duration",
+      "Impressions",
+      "Clicks",
+      "Leads",
+      "Conversions",
+      "Acquisition_Cost",
+      "Engagement_Score",
+      "Total_Spend",
+      "CTR",
+      "Lead_Rate",
+      "Conversion_Rate",
+      "Month",
+      "Weekday"
+    ],
+    "top_features": {
+      "Conversions": 1.4192,
+      "Acquisition_Cost": 0.0455,
+      "Leads": 0.0103,
+      "Clicks": 0.0071,
+      "Total_Spend": 0.0051,
+      "Lead_Rate": 0.0015,
+      "Engagement_Score": 0.0002,
+      "Campaign_Type": 0.0001,
+      "Ch_Instagram": 0.0001,
+      "Ch_Facebook": 0.0
+    }
+  },
+  "classification_spec": {
+    "task": "classification",
+    "variant": "spec",
+    "best_model": "Logistic Regression",
+    "best_params": {
+      "model__C": 100
+    },
+    "test_metrics": {
+      "Accuracy": 0.9986340041890538,
+      "Precision": 0.9991626126485366,
+      "Recall": 0.9990431003548503,
+      "F1": 0.99910285292769,
+      "ROC_AUC": 0.9999907955309508
+    },
+    "fit_seconds": 0.5,
+    "n_features": 26,
+    "numeric_features": [
+      "Duration",
+      "Impressions",
+      "Clicks",
+      "Leads",
+      "Conversions",
+      "Acquisition_Cost",
+      "Engagement_Score",
+      "Total_Spend",
+      "CTR",
+      "Lead_Rate",
+      "Conversion_Rate",
+      "Month",
+      "Weekday",
+      "Revenue"
+    ],
+    "top_features": {
+      "Revenue": 0.3343,
+      "Total_Spend": 0.1144,
+      "Acquisition_Cost": 0.0461,
+      "Conversions": 0.0127,
+      "Leads": 0.0109,
+      "Clicks": 0.0079,
+      "Conversion_Rate": 0.0069,
+      "Lead_Rate": 0.0036,
+      "Impressions": 0.0022,
+      "CTR": 0.0012
+    },
+    "confusion_matrix": [
+      [
+        7841,
+        21
+      ],
+      [
+        24,
+        25057
+      ]
+    ]
+  },
+  "classification_forecast": {
+    "task": "classification",
+    "variant": "forecast",
+    "best_model": "Gradient Boosting",
+    "best_params": {
+      "model__max_leaf_nodes": 31,
+      "model__max_iter": 300,
+      "model__learning_rate": 0.1,
+      "model__l2_regularization": 0.1
+    },
+    "test_metrics": {
+      "Accuracy": 0.9087514798287952,
+      "Precision": 0.9231359018593062,
+      "Recall": 0.9600893106335473,
+      "F1": 0.9412500488605715,
+      "ROC_AUC": 0.9644926550923367
+    },
+    "fit_seconds": 1.7,
+    "n_features": 25,
+    "numeric_features": [
+      "Duration",
+      "Impressions",
+      "Clicks",
+      "Leads",
+      "Conversions",
+      "Acquisition_Cost",
+      "Engagement_Score",
+      "Total_Spend",
+      "CTR",
+      "Lead_Rate",
+      "Conversion_Rate",
+      "Month",
+      "Weekday"
+    ],
+    "top_features": {
+      "Acquisition_Cost": 0.2609,
+      "Conversions": 0.0044,
+      "Leads": 0.003,
+      "Conversion_Rate": 0.0013,
+      "Engagement_Score": 0.0012,
+      "Customer_Segment": 0.001,
+      "Impressions": 0.001,
+      "Duration": 0.0008,
+      "Ch_WhatsApp": 0.0008,
+      "Total_Spend": 0.0008
+    },
+    "confusion_matrix": [
+      [
+        5857,
+        2005
+      ],
+      [
+        1001,
+        24080
+      ]
+    ]
+  },
+  "_figures": [
+    "reports/figures/10_model_comparison.png",
+    "reports/figures/11_regression_actual_vs_predicted.png",
+    "reports/figures/12_classification_confusion_roc.png",
+    "reports/figures/13_feature_importance.png"
+  ]
+}

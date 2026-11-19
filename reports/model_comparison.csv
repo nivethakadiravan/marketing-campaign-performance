@@ -1,0 +1,17 @@
+task,variant,model,cv_r2,cv_rmse,cv_seconds,test_R2,test_RMSE,test_MAE,test_MSE,test_MAPE_pct,tuned,cv_accuracy,cv_f1,test_Accuracy,test_Precision,test_Recall,test_F1,test_ROC_AUC
+regression,spec,Linear Regression,1.0,6.2945,1.4,1.0,6.2467,4.6801,39.0218,0.0021,True,,,,,,,
+regression,spec,Random Forest,0.9982,20759.974,69.4,0.9988,16557.6923,3871.7526,274157174.3169,0.601,False,,,,,,,
+regression,spec,Gradient Boosting,0.9961,30464.523,11.7,0.9967,27537.6161,10380.8938,758320302.4225,2.0093,False,,,,,,,
+regression,spec,Decision Tree,0.9956,32265.3927,3.9,0.9958,31366.349,11527.2375,983847848.1782,1.8996,False,,,,,,,
+regression,forecast,Linear Regression,0.765,236921.0759,1.2,0.7621,235264.6102,156438.7136,55349436796.7205,35.34,True,,,,,,,
+regression,forecast,Gradient Boosting,0.7617,238584.2439,3.3,0.7597,236420.5518,156777.3257,55894677295.3915,35.371,False,,,,,,,
+regression,forecast,Random Forest,0.7577,240556.2231,78.6,0.7545,238975.3731,157904.1955,57109228952.6877,35.461,False,,,,,,,
+regression,forecast,Decision Tree,0.7077,264228.4988,3.6,0.709,260180.0051,165956.6694,67693635030.1566,37.5972,False,,,,,,,
+classification,spec,Logistic Regression,,,1.3,,,,,,True,0.9986,0.9991,0.9986,0.9992,0.999,0.9991,1.0
+classification,spec,Gradient Boosting,,,8.9,,,,,,False,0.998,0.9987,0.998,0.9985,0.9988,0.9987,1.0
+classification,spec,Decision Tree,,,2.9,,,,,,False,0.9956,0.9971,0.9961,0.9973,0.9977,0.9975,0.9968
+classification,spec,Random Forest,,,12.9,,,,,,False,0.9802,0.987,0.9828,0.9857,0.9919,0.9888,0.9984
+classification,forecast,Gradient Boosting,,,4.0,,,,,,True,0.9115,0.943,0.9088,0.9231,0.9601,0.9413,0.9645
+classification,forecast,Random Forest,,,14.8,,,,,,False,0.9112,0.9427,0.9083,0.9234,0.9592,0.9409,0.9634
+classification,forecast,Logistic Regression,,,1.5,,,,,,False,0.9112,0.9422,0.9086,0.9304,0.951,0.9406,0.965
+classification,forecast,Decision Tree,,,3.2,,,,,,False,0.9021,0.9367,0.9016,0.9211,0.9523,0.9365,0.9481

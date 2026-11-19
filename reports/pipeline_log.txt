@@ -1,0 +1,57 @@
+== Step 1/4: data collection & cleaning
+{
+  "rows_raw": 166665,
+  "roi_corrected": 0,
+  "recovered_by_roi_identity": {
+    "ROI": 7064,
+    "Revenue": 7137,
+    "Acquisition_Cost": 6991,
+    "Conversions": 6846
+  },
+  "rows_dropped_target_unrecoverable": 1953,
+  "rows_final": 164712
+}
+   164,712 clean campaigns -> data/processed/campaigns_clean.csv.gz
+== Step 2/4: feature engineering (multi-label channels, Profit_Flag, ratios)
+   33 columns, profit share 76.1% -> data/processed/campaigns_features.csv.gz
+== Step 4/4: regression & classification models
+Train 131,769 | Test 32,943 | Profit share 0.761
+
+--- regression / spec  (14 numeric features incl. ROI)
+  Linear Regression    CV r2=1.0000  (1.4s)
+  Decision Tree        CV r2=0.9956  (4.4s)
+  Random Forest        CV r2=0.9982  (69.5s)
+  Gradient Boosting    CV r2=0.9961  (11.3s)
+  BEST Linear Regression: R2=1.0000, RMSE=6.2467, MAE=4.6801, MSE=39.0218, MAPE_pct=0.0021
+
+--- regression / forecast  (13 numeric features)
+  Linear Regression    CV r2=0.7650  (1.4s)
+  Decision Tree        CV r2=0.7077  (3.7s)
+  Random Forest        CV r2=0.7577  (77.8s)
+  Gradient Boosting    CV r2=0.7617  (4.0s)
+  BEST Linear Regression: R2=0.7621, RMSE=235,264.6102, MAE=156,438.7136, MSE=55,349,436,796.7205, MAPE_pct=35.3400
+
+--- classification / spec  (14 numeric features incl. Revenue)
+  Logistic Regression  CV accuracy=0.9986  (1.6s)
+  Decision Tree        CV accuracy=0.9956  (3.1s)
+  Random Forest        CV accuracy=0.9802  (13.8s)
+  Gradient Boosting    CV accuracy=0.9980  (9.0s)
+  tuned Logistic Regression: {'model__C': 100} (0.9972 -> 0.9987)
+  BEST Logistic Regression: Accuracy=0.9986, Precision=0.9992, Recall=0.9990, F1=0.9991, ROC_AUC=1.0000
+
+--- classification / forecast  (13 numeric features)
+  Logistic Regression  CV accuracy=0.9112  (1.4s)
+  Decision Tree        CV accuracy=0.9021  (3.0s)
+  Random Forest        CV accuracy=0.9112  (13.2s)
+  Gradient Boosting    CV accuracy=0.9115  (4.4s)
+  tuned Gradient Boosting: {'model__max_leaf_nodes': 31, 'model__max_iter': 300, 'model__learning_rate': 0.1, 'model__l2_regularization': 0.1} (0.9109 -> 0.9114)
+  BEST Gradient Boosting: Accuracy=0.9088, Precision=0.9231, Recall=0.9601, F1=0.9413, ROC_AUC=0.9645
+
+Revenue (spec):      Linear Regression  R² = 1.0000
+Profit/Loss (spec):  Logistic Regression  Accuracy = 0.9986
+
+Done in 373s. Start the app with:  streamlit run app.py
+
+real	6m14.315s
+user	11m16.369s
+sys	0m2.945s
